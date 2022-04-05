@@ -1,0 +1,12 @@
+/* AUTOMATICALLY GENERATED ON Tue Apr 05 18:22:28 EEST 2022*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "MyStatelessEjb", "insert,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MyStatelessEjb", "insert,Remote,java.lang.String";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "MyStatelessEjb", "**";
+};
+

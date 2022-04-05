@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.ejb.Remote"/>
+    <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+    <fullyQualifiedTypeName name="com.example.MyStatelessEjbRemote"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+    <fullyQualifiedTypeName name="org.h2.engine.User"/>
+    <fullyQualifiedTypeName name="com.example.User"/>
+    <fullyQualifiedTypeName name="javax.xml.registry.infomodel.User"/>
+</qualifiedTypeNameHistroy>
