@@ -5,6 +5,7 @@
 	<projects>
 		<project>ApplicationEjb</project>
 		<project>ApplicationEjbClient</project>
+		<project>GuiClient</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

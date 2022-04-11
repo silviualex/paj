@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" glassfish.adminserverportnumber="4848" glassfish.domainpath="C:\Users\Stefan\Desktop\WorkspacePAJ\payara5\glassfish\domains\domain1" glassfish.keepSessions="true" glassfish.serverportnumber="8080" hostname="localhost" id="Payara Server 5 (5.2022.1) [domain1]" name="Payara Server 5 (5.2022.1) [domain1]" previous-domain="C:\Users\Stefan\Desktop\WorkspacePAJ\payara5\glassfish\domains\domain1" previous-name="Payara Server 5 (5.2022.1) [domain1]" runtime-id="Payara Server 5 (5.2022.1)" server-type="payara.server" server-type-id="payara.server" start-timeout="240" stop-timeout="240" timestamp="28">
+  <server auto-publish-setting="2" auto-publish-time="1" glassfish.adminserverportnumber="4848" glassfish.domainpath="C:\Users\Stefan\Desktop\WorkspacePAJ\payara5\glassfish\domains\domain1" glassfish.keepSessions="true" glassfish.serverportnumber="8080" hostname="localhost" id="Payara Server 5 (5.2022.1) [domain1]" name="Payara Server 5 (5.2022.1) [domain1]" previous-domain="C:\Users\Stefan\Desktop\WorkspacePAJ\payara5\glassfish\domains\domain1" previous-name="Payara Server 5 (5.2022.1) [domain1]" runtime-id="Payara Server 5 (5.2022.1)" server-type="payara.server" server-type-id="payara.server" start-timeout="240" stop-timeout="240" timestamp="62">
     <list key="modules" value0="ApplicationEar::org.eclipse.jst.jee.server:ApplicationEar::jst.ear::8.0"/>
   </server>
 </servers>

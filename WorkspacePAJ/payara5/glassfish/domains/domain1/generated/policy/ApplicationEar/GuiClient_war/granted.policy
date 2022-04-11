@@ -1,0 +1,16 @@
+/* AUTOMATICALLY GENERATED ON Mon Apr 11 18:19:44 EEST 2022*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebResourcePermission "/";
+  permission javax.security.jacc.WebUserDataPermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Faces Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "org.eclipse.persistence.jpa.rs.service.JPARSApplication", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+};
+

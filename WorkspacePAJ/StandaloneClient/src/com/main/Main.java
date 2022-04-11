@@ -12,7 +12,7 @@ public class Main {
 		InitialContext context = new InitialContext();
 		MyStatelessEjbRemote ejb = (MyStatelessEjbRemote) context
 				.lookup("java:global/ApplicationEar/ApplicationEjb/MyStatelessEjb!com.example.MyStatelessEjbRemote");
-		ejb.insert("Bianca");
+		ejb.insert("Stefan Silvano");
 		
 
 	}

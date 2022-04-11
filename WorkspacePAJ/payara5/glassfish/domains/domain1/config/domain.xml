@@ -745,14 +745,14 @@
   <deployment-groups></deployment-groups>
   <clusters></clusters>
   <applications>
-    <application deployment-time="3091" object-type="user" name="ApplicationEar" directory-deployed="true" location="${com.sun.aas.instanceRootURI}/eclipseApps/ApplicationEar/" time-deployed="1649172148256">
+    <application deployment-time="5174" object-type="user" name="ApplicationEar" directory-deployed="true" location="${com.sun.aas.instanceRootURI}/eclipseApps/ApplicationEar/" time-deployed="1649690384366">
       <property name="archiveType" value="ear"></property>
       <property name="org.glassfish.ejb.startup.keepstate" value="true"></property>
       <property name="cdiDevModeEnabled" value="false"></property>
       <property name="keepstate" value="true"></property>
       <property name="isComposite" value="true"></property>
       <property name="appLocation" value="${com.sun.aas.instanceRootURI}/eclipseApps/ApplicationEar/"></property>
-      <property name="org.glassfish.ejb.container.application_unique_id" value="108040288493174784"></property>
+      <property name="org.glassfish.ejb.container.application_unique_id" value="108113880690851840"></property>
       <property name="defaultAppName" value="ApplicationEar"></property>
       <module name="ApplicationEjb.jar">
         <engine sniffer="cdi"></engine>
@@ -761,6 +761,11 @@
         <engine sniffer="config"></engine>
         <engine sniffer="jpa"></engine>
         <property name="org.glassfish.persistence.app_name_property" value="ApplicationEar"></property>
+      </module>
+      <module name="GuiClient.war">
+        <engine sniffer="config"></engine>
+        <engine sniffer="security"></engine>
+        <engine sniffer="web"></engine>
       </module>
       <engine sniffer="config"></engine>
       <engine sniffer="ear"></engine>
